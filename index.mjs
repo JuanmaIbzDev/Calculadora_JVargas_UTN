@@ -33,44 +33,44 @@ while (true){
         const num1 = Number(await input("Ingrese el primer numerito: "))
         const num2 = Number(await input("Ingrese el segundo numerito: "))
         console.log(num1 - num2)
-        await input("Precione cualquier tecla para continuar...")
+        await input("Presione cualquier tecla para continuar...")
     }
     else if(opcion === "3"){
         console.log(clear)
         const num1 = Number(await input("Ingrese el primer numerito: "))
         const num2 = Number(await input("Ingrese el segundo numerito: "))
         console.log(num1 * num2)
-        await input("Precione cualquier tecla para continuar...")
+        await input("Presione cualquier tecla para continuar...")
     }
     else if(opcion === "4"){
         console.log(clear)
         const num1 = Number(await input("Ingrese el primer numerito: "))
         const num2 = Number(await input("Ingrese el segundo numerito: "))
         console.log(num1 / num2)
-        await input("Precione cualquier tecla para continuar...")
+        await input("Presione cualquier tecla para continuar...")
     }
     else if(opcion === "5"){
         console.log(clear)
         const num1 = Number(await input("Ingrese el primer numerito: "))
         const num2 = Number(await input("Ingrese el segundo numerito: "))
         console.log(num1 % num2)
-        await input("Precione cualquier tecla para continuar...")
+        await input("Presione cualquier tecla para continuar...")
     }
     else if(opcion === "6"){
         console.log(clear)
         const num1 = Number(await input("Ingrese el primer numerito: "))
         const num2 = Number(await input("Ingrese el segundo numerito: "))
         console.log(num1 ** num2)
-        await input("Precione cualquier tecla para continuar...")
+        await input("Presione cualquier tecla para continuar...")
     }
     else if (opcion === "7"){
         console.log(clear)
-        console.log("Saliendo del programa...")
+        console.log("Chau loco cuidate")
         process.exit()
     }
     else if (opcion === "8"){
         let salida = "";
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 500; i++) {
         salida += "masivo ";
     }
     console.log(salida);
