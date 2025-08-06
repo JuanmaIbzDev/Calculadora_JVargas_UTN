@@ -4,15 +4,20 @@ import { input } from './utils.mjs'
 
 while (true){
     console.log(`
-        Calculadorovich 
+        Calculadorovich cientifica full picada
 
-        1- sumar
-        2- restar
-        3- multiplicar
-        4- dividir
+        1- sumar dos numeros
+        2- restar dos numeros
+        3- multiplicar otros dos numeros
+        4- dividir dos numeros mas
+
+        todo trabaja solo con 2 numeros jaja
+
         5- resto
         6- potencia
         7- salir
+        8- generador de masivos
+
         `)
     const opcion = await input("Seleccioná una opcion: ")
         
@@ -62,5 +67,13 @@ while (true){
         console.log(clear)
         console.log("Saliendo del programa...")
         process.exit()
+    }
+    else if (opcion === "8"){
+        let salida = "";
+    for (let i = 0; i < 50; i++) {
+        salida += "masivo ";
+    }
+    console.log(salida);
+    break;
     }
 }
