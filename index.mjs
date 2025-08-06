@@ -12,6 +12,7 @@ while (true){
         4- dividir dos numeros mas
 
         todo trabaja solo con 2 numeros jaja
+        espacio publicitario: ¡Nuevo video!: https://www.youtube.com/watch?v=1IWvyq89G5E
 
         5- resto
         6- potencia
