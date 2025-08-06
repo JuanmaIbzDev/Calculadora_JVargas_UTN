@@ -13,6 +13,7 @@ while (true){
 
         todo trabaja solo con 2 numeros jaja
         espacio publicitario: ¡Nuevo video!: https://www.youtube.com/watch?v=1IWvyq89G5E
+        un meme: https://miro.medium.com/v2/resize:fit:1400/1*7BTTDiiBTr7ZpkCwaMu4-A.png
 
         5- resto
         6- potencia
